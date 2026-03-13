@@ -17,7 +17,7 @@ if "tags" not in st.session_state:
     st.session_state.tags = []
 
 if "current_time" not in st.session_state:
-    st.session_state.current_time = 0
+    st.session_state.current_time = 0.0
 
 st.title("🏈 Play Tagging System")
 
